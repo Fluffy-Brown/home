@@ -1,0 +1,77 @@
+{
+    "social": {
+        "discord": "https://discord.gg/cyQNsYtz",
+        "facebook": "https://www.facebook.com/profile.php?id=61556983167805",
+        "x": "#",
+        "steam": "#"
+    },
+    "company": {
+        "firstPageUnderLogo": "Where Strategy Meets Mastery.",
+        "companyAim": "We aim to deliver deeply rewarding experiences where every decision matters, empowering players to feel a sense of growth and triumph through their strategic mastery.",
+        "teamHighlights": [
+            "Player-Centric Focus",
+            "Innovation-Driven Thinking",
+            "Excellence in Strategy Design"
+        ]
+    },
+    "characters": [
+        {
+            "name": "VAYNE",
+            "race": "Vampire",
+            "icon": "icon_vampire.png",
+            "bg": "vampire_bg.png",
+            "image": "vampire_parts.png",
+            "tags": [
+                "Blood",
+                "Vamp"
+            ],
+            "description": [
+                "Vayne was once the ultimate ruler of the magical realm, a symbol of immortality and terror. Cold and ruthless, he struck fear into all who opposed him. But when the multiverse collapsed, even his so-called eternal body was nearly destroyed. Facing death for the first time, he was offered salvation by the laboratory—a mechanical body to survive this chaotic era.",
+                "Bound by this 'rescue', Vayne regained power but at the cost of suppressing his violent nature, becoming a controlled warrior for the lab. Though he appears loyal, his inner rage simmers, waiting for the moment to break free and reclaim his dark dominion."
+            ]
+        },
+        {
+            "name": "SELENE",
+            "race": "Gunslinger",
+            "icon": "icon_gunslinger.png",
+            "bg": "gunslinger_bg.png",
+            "image": "gunslinger_parts.png",
+            "tags": [
+                "Gun",
+                "Dexerity"
+            ],
+            "description": [
+                "Selene was once a dedicated human patrol officer, walking city streets in her black uniform, her gaze steady yet warm. She safeguarded not just order but the people who relied on her. When catastrophe struck, tearing Adar apart, she became a beacon of hope, leading survivors through ruins to a laboratory-built refuge. Exhausted, she ensured every life was safe before giving her own, her name becoming a symbol of courage.",
+                "But this wasn’t the end. To inspire humanity, the laboratory resurrected her as a machine. Though she struggled with her cold, metallic body, Selene embraced her new purpose: to protect and fight for survival, unwavering in her mission."
+            ]
+        },
+        {
+            "name": "ELYSE",
+            "race": "Witch",
+            "icon": "icon_witch.png",
+            "bg": "witch_bg.png",
+            "image": "witch_parts.png",
+            "tags": [
+                "Fire",
+                "Ice"
+            ],
+            "description": [
+                "Elyse fights with unmatched precision, wielding magic and steel as if solely for the laboratory’s honor. Yet, her true drive lies in uncovering the world’s hidden truths. Each victory grants her a fragment of knowledge, like pieces of an ancient puzzle, revealing glimpses of the fractured world’s secrets. She battles not for glory but to piece together the grand mystery behind her existence. With each spell cast and every strike delivered, she gathers these fragments, determined to ignite them into a light that will lead her to freedom, truth, and the answers she seeks."
+            ]
+        },
+        {
+            "name": "GALENNA",
+            "race": "Paladin",
+            "icon": "icon_paladin.png",
+            "bg": "paladin_bg.png",
+            "image": "paladin_parts.png",
+            "tags": [
+                "Fire",
+                "Holy"
+            ],
+            "description": [
+                "Before the disaster, Galenna was a simple guardian robot, protecting her city with unwavering resolve. When chaos shattered the world, she fought valiantly but was powerless against the destruction. Just as despair set in, a divine light transformed her into a paladin, granting her the strength to heal and protect. Yet, in a fractured, war-torn world, she wandered aimlessly, her purpose lost. Meeting the player, an AI fighting for survival and protecting displaced humans, reignited her mission. Swearing to defend humanity, Galenna embraced her role as a beacon of light and hope in the chaos."
+            ]
+        }
+    ]
+}
