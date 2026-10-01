@@ -7,6 +7,12 @@
       "status": "In development",
       "genre": "Solo mining & toy-market adventure",
       "description": "Dig into a side-view world, build a rail network, and turn the materials you bring home into toys for the evening market.",
+      "homeSummary": "Put on the red helmet and work for Marksa, a would-be world conqueror with a village to look after. Shape tunnels, connect powered stations, and let their Dudu carts bring materials home. Back in town, turn your haul into toys, choose your stall's stock and work the evening crowd before planning the next expedition.",
+      "homeHighlights": [
+        "Excavate a persistent side-view mine",
+        "Connect tracks, power and automatic freight",
+        "Learn recipes and run your toy stall"
+      ],
       "image": "munchminer-town",
       "alt": "MunchMiner's town, with a warmly lit workshop and its black-ball inhabitants",
       "url": "/munchminer/",
@@ -14,19 +20,19 @@
       "steps": [
         [
           "Dig a little deeper",
-          "Explore a side-view mine, excavate materials and shape your own route underground."
+          "Dig through soil and mineral deposits, open passages and shape the route you want to explore. The tunnels you make remain when you return."
         ],
         [
           "Connect the pieces",
-          "Lay track and build powered facilities. Station Dudu carts carry materials through your rail network."
+          "Build stations and gathering facilities, then connect them with powered tracks. Each station's permanent Dudu automatically carries eligible materials along a valid delivery route."
         ],
         [
           "Make something wonderful",
-          "Bring materials home, learn toy recipes and prepare your workshop's stock."
+          "Use delivered minerals and creature materials in the workshop. Assemble a first sample to learn a recipe, then produce batches and select finished toys for the stall."
         ],
         [
           "Meet the evening market",
-          "Attract customers, sell the toys they want and prepare for your next expedition."
+          "Read toy requests, guide shoppers to your stall and collect payment after their toys are ready. Unsold stock stays with you for a future market."
         ]
       ]
     },
@@ -36,6 +42,12 @@
       "status": "Available on Steam",
       "genre": "Tactical programming & strategy",
       "description": "Take the role of a super AI. Combine modular chips to program your robots, test your tactics in the arena, and refine your next strategy.",
+      "homeSummary": "In this turn-based strategy roguelike, your plan begins with the robot's AI. Combine modular chip actions to build behaviours, take the result into the arena and watch how it performs. Each match gives you another chance to reconsider your choices; victories move you up the game's tiered ranking, while losses put the run under pressure.",
+      "homeHighlights": [
+        "Build behaviours with modular AI chips",
+        "Test tactical choices in the arena",
+        "Rework your build and pursue a higher rank"
+      ],
       "image": "circuit-stance-1",
       "alt": "Circuit Stance arena screenshot from the official Steam gallery",
       "url": "/circuit-stance/",
@@ -44,15 +56,15 @@
       "steps": [
         [
           "Program your squad",
-          "Combine modular chip actions to create different robot behaviours."
+          "Choose your combatant and arrange modular chip actions to shape how your robot behaves. Think about the whole build, rather than one isolated action."
         ],
         [
           "Put ideas to the test",
-          "Try your tactical builds in the arena and see how your decisions play out."
+          "Take that setup into a tactical arena match. Observe the combatants, their chip boards and the changing health bars to see how the plan performs."
         ],
         [
           "Refine and repeat",
-          "Experiment with new combinations and improve your strategy between matches."
+          "Return to your build with a new question: what should change for the next encounter? Experiment with combinations, test the result and work toward a higher rank."
         ]
       ]
     }

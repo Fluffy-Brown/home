@@ -25,6 +25,8 @@ and refresh on GitHub Pages. `404.html` is a complete rendered page.
 ## Edit
 
 - `content/games.json`: current project names, descriptions, status and verified links.
+- `content/game-guides.json`: gameplay sections, recipe examples, page navigation
+  and annotated screenshots, with evidence in `docs/content-sources.md`.
 - `scripts/build.mjs`: page templates, shared navigation/footer and metadata.
 - `assets/site.css`: responsive layout, typography and reduced-motion support.
 - `assets/site.js`: mobile menu and keyboard-accessible screenshot viewer.

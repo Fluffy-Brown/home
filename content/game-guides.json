@@ -1,0 +1,252 @@
+{
+  "munchminer": {
+    "navigation": [
+      ["the-game", "The loop"],
+      ["underground", "Excavation"],
+      ["rail-and-power", "Tracks & power"],
+      ["workshop", "Workshop"],
+      ["evening-market", "Evening market"],
+      ["screenshots", "Screenshots"]
+    ],
+    "sections": [
+      {
+        "id": "underground",
+        "eyebrow": "MAKE A WAY THROUGH",
+        "title": "The mine takes the shape of your choices.",
+        "intro": "Excavation changes the world you move through. Your passages, tracks and facilities persist between visits, so the next trip starts with the work you have already done.",
+        "cards": [
+          {
+            "title": "Dig, fill and explore",
+            "paragraphs": [
+              "Break through soil and mineral deposits, fill terrain when you need to reshape a passage, and use jumping and rope climbing to move through the side-view mine. Digging beneath a track can change it into a vertical rope, so the ground beneath your route matters."
+            ]
+          },
+          {
+            "title": "Pack for the return",
+            "paragraphs": [
+              "Arrange and rotate shaped items in your grid backpack to make room for minerals, creature parts and supplies. Keep an eye on the miner's moisture: it drains over time and from creature damage, and contact with molten plasma restores it."
+            ]
+          }
+        ],
+        "note": "Digging, filling, track work and player construction do not spend player stamina in the current design. Materials and legal placement still matter."
+      },
+      {
+        "id": "rail-and-power",
+        "eyebrow": "BUILD A WORKING CONNECTION",
+        "title": "A rail line needs a destination—and power.",
+        "intro": "Connect freight routes to gathering facilities and an exit. Stations can pass cargo through powered relay stations, but materials reach town storage only when a cart actually arrives at a real exit.",
+        "tone": "warm",
+        "cards": [
+          {
+            "title": "Stations + Dudu",
+            "paragraphs": [
+              "Each station has its own permanent Dudu cart. With cargo, power and a valid route, it loads and delivers automatically, then returns for more. It waits when empty and pauses while you arrange that station's inventory."
+            ]
+          },
+          {
+            "title": "Minefields",
+            "paragraphs": [
+              "These gathering facilities collect eligible ore in their service area. A station cart can collect their stock when the facilities are connected by a valid powered rail route."
+            ]
+          },
+          {
+            "title": "Power stations",
+            "paragraphs": [
+              "Tap electric-source regions and carry power along electrified tracks. Connected facilities share the circuit's capacity. If their combined demand exceeds supply, all consumers on that circuit pause until enough capacity is available."
+            ]
+          },
+          {
+            "title": "Built rift exits",
+            "paragraphs": [
+              "Construct powered rift exits to connect travel between powered exits. They are one of the mine's functional building choices, alongside stations, minefields and power stations."
+            ]
+          }
+        ],
+        "note": "The mine keeps producing and transporting while you are in town and while game time advances through rest or a market. This is an active game-world clock; there is no offline income or offline time progression."
+      },
+      {
+        "id": "workshop",
+        "eyebrow": "FROM RAW MATERIAL TO SOMETHING PLAYFUL",
+        "title": "Learn a toy. Make a batch. Plan the next haul.",
+        "intro": "The workshop turns the materials you bring home into finished stock. Your choice of recipes gives each expedition a purpose: gather what the next batch needs, rather than sell raw ore for money.",
+        "cards": [
+          {
+            "title": "A first sample teaches the recipe",
+            "paragraphs": [
+              "Time the assembly action while the needle is in the gold zone. Three successful steps complete the sample and learn the recipe. A miss does not spend materials; the ingredient set is charged when the sample succeeds.",
+              "Once learned, the recipe skips that sample minigame and supports batch quantities. Finished toys can then be selected for an evening market."
+            ]
+          },
+          {
+            "title": "Two kinds of lasting progress",
+            "paragraphs": [
+              "Recipe upgrades change the value of newly made stock; existing toys keep their original quality. Separately, permanent building research at Marksa's town workshop applies to every existing and future building of the same kind.",
+              "Higher-level stations and minefields handle higher-level materials, linking workshop research back to your underground network."
+            ]
+          }
+        ],
+        "recipes": [
+          ["Iron Toy Mine Cart", "2 Iron"],
+          ["Wind-up Frog", "1 Iron + 1 Copper"],
+          ["Crystal Kaleidoscope", "1 Copper + 1 Crystal"]
+        ],
+        "recipeNote": "A few mineral-only recipes to try. Each ingredient set makes one toy; other recipes also use creature materials."
+      },
+      {
+        "id": "evening-market",
+        "eyebrow": "THE OTHER HALF OF THE ADVENTURE",
+        "title": "Work the crowd, then work the counter.",
+        "intro": "An evening market is an active shift. You move through the stalls, meet customers and keep service moving while their patience runs down.",
+        "tone": "warm",
+        "cards": [
+          {
+            "title": "Choose what to bring",
+            "paragraphs": [
+              "Select finished toys before opening. Shoppers show a request for a specific toy, so a varied stock gives you different requests to serve. Unsold toys remain in your inventory after the shift."
+            ]
+          },
+          {
+            "title": "Guide, make, collect",
+            "paragraphs": [
+              "Recruit a shopper and lead them to your stall. On-site making begins after their arrival, with one toy prepared at a time. Handover and payment are separate: return to the customer and collect their payment with F before patience expires."
+            ]
+          },
+          {
+            "title": "Find your rhythm",
+            "paragraphs": [
+              "Assign a Maker and Promoters to help with production and recruitment. Time a toy-horn promotion to reach more shoppers; a blast that is too loud can drive them away. At settlement, sales, tips and attending staff's wages determine the shift's profit."
+            ]
+          }
+        ],
+        "note": "Successful sales feed Marksa's Evil Broadcast Tower. A stronger signal attracts more humans, and themed markets give you a reason to prepare particular toys. More stock, better service and the next mining trip become parts of the same plan."
+      }
+    ],
+    "screenshots": [
+      {
+        "image": "munchminer-town",
+        "alt": "MunchMiner's town, with the red-helmet miner beside Marksa and a warmly lit workshop",
+        "title": "Your town between expeditions",
+        "caption": "Look for the red helmet beside Marksa and the workshop behind them. Town connects the mine's delivered materials with crafting, research and preparations for the evening market."
+      },
+      {
+        "image": "munchminer-mine",
+        "alt": "A station and connected horizontal tracks and vertical ropes in the MunchMiner mine",
+        "title": "Trace an underground route",
+        "caption": "The station anchors the visible track network. Trace the horizontal rails and vertical ropes through excavated passages to see how your route and your freight network share the underground space."
+      },
+      {
+        "image": "munchminer-workshop",
+        "alt": "A toy-stock selection panel with Iron Toy Mine Carts in a MunchMiner development build",
+        "title": "Choose the toys for your stall",
+        "caption": "The stock panel shows finished Iron Toy Mine Carts ready for selection. This is the step after workshop production: decide which finished toys to offer before opening the market."
+      },
+      {
+        "image": "munchminer-market",
+        "alt": "Two rows of evening market stalls, including the toy stall at the lower right, before customers arrive",
+        "title": "From preparation to a busy shift",
+        "caption": "The toy stall sits at the lower right of the two-row market. This scene was captured before customers arrive; during a shift you move between shoppers and your counter to recruit, hand over toys and collect payment."
+      }
+    ]
+  },
+  "circuit-stance": {
+    "navigation": [
+      ["the-game", "The loop"],
+      ["chip-programming", "AI chips"],
+      ["arena", "Arena tactics"],
+      ["iteration", "Build & rank"],
+      ["screenshots", "Screenshots"],
+      ["characters", "Character stories"]
+    ],
+    "sections": [
+      {
+        "id": "chip-programming",
+        "eyebrow": "YOUR STRATEGY STARTS BEFORE THE MATCH",
+        "title": "Build the behaviour behind the battle.",
+        "intro": "You take the role of a super AI in a post-apocalyptic world, programming a robot squad to compete for resources. The modular chip system is the centre of the build: combine chip actions to create the behaviours you want to test.",
+        "tone": "cool",
+        "cards": [
+          {
+            "title": "Choose a combatant and a setup",
+            "paragraphs": [
+              "Choose a combatant, inspect its stats, and use the hexagonal chip board to prepare your setup. Think about who you are building around and which chip actions should form the plan before you head into the arena."
+            ]
+          },
+          {
+            "title": "Give the combination a purpose",
+            "paragraphs": [
+              "Modular actions allow different tactical builds. Treat the arrangement as one plan: decide what you want your robot to do, try a combination that expresses that idea, and use the match to judge whether it works."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "arena",
+        "eyebrow": "WATCH YOUR DECISIONS MEET AN OPPONENT",
+        "title": "Take the build into the arena.",
+        "intro": "Quick, complex turn-based matches put your choices to the test. Preparation and testing connect directly: the chips you choose become a strategy to evaluate against the next arena challenge.",
+        "cards": [
+          {
+            "title": "Read the result",
+            "paragraphs": [
+              "Arena screenshots place the combatants alongside health bars and visible chip boards. Follow those changing battle states and compare the outcome with the plan you built. Did the combination produce the behaviour you were aiming for?"
+            ]
+          },
+          {
+            "title": "Carry a question into the next build",
+            "paragraphs": [
+              "A match is feedback for the next experiment. Reconsider a chip choice or the overall combination, then test again. The game's iterative strategy testing is about experimenting, optimizing and validating your tactics through play."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iteration",
+        "eyebrow": "EXPERIMENTATION WITH SOMETHING AT STAKE",
+        "title": "Refine the plan. Pursue the next rank.",
+        "intro": "Circuit Stance is a strategy roguelike with a tiered scoring system. Victories move your rank upward; losses bring challenges and the risk of starting over.",
+        "tone": "cool",
+        "cards": [
+          {
+            "title": "One useful testing cycle",
+            "paragraphs": [
+              "Start with a chip arrangement, take it into a match, observe the result, and revise the build before another test. Compare what happened after the change, rather than assuming a new combination must be better."
+            ]
+          },
+          {
+            "title": "Progress through tactical learning",
+            "paragraphs": [
+              "Ranking gives each encounter weight, while repeated testing helps you understand your build. The next decision can draw on the last battle: which ideas held up, which need another attempt, and what to change for the next opponent."
+            ]
+          }
+        ],
+        "note": "The visual world uses vibrant flat 2D anime art, with distinct combatant designs and readable chip boards. Explore the original character stories below for more of the personalities behind that world."
+      }
+    ],
+    "screenshots": [
+      {
+        "image": "circuit-stance-1",
+        "alt": "Circuit Stance arena with two witch combatants, health bars and hexagonal chip boards",
+        "title": "See the build beside the battle",
+        "caption": "The combatants occupy the centre while health bars and chip boards frame the arena. These visible states give you a way to inspect how a programmed build performs during a match."
+      },
+      {
+        "image": "circuit-stance-2",
+        "alt": "Circuit Stance character selection showing Selene, character choices and a stat panel",
+        "title": "Inspect your combatant",
+        "caption": "Selene appears beside a character-selection panel and stats. Use this view to consider the combatant at the centre of your next tactical setup."
+      },
+      {
+        "image": "circuit-stance-3",
+        "alt": "Circuit Stance chip-editing view with a hexagonal board and chip-selection panels",
+        "title": "Arrange modular AI chips",
+        "caption": "The hexagonal board and adjacent chip-selection panels show the programming side of the game. Chip actions combine into a tactical build for the next arena test."
+      },
+      {
+        "image": "circuit-stance-4",
+        "alt": "Circuit Stance arena with witch and vampire combatants and a visible chip board",
+        "title": "Try the next encounter",
+        "caption": "A different pair of combatants faces off with a chip board still visible. Take what you learned from an earlier battle into the next combination, then compare the result."
+      }
+    ]
+  }
+}

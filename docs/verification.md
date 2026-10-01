@@ -1,5 +1,37 @@
 # Website verification — 1 October 2026
 
+## Expanded game-information revision
+
+This revision is prepared on the isolated local branch
+`dot/game-details-revision-local`. The remote review branch remains at `2faac72`;
+the revision has not been pushed, merged or deployed.
+
+- Homepage: richer summaries and three gameplay highlights for each game.
+- MunchMiner: excavation and inventory, automatic station freight, relay delivery,
+  facility roles and power capacity, first-sample/batch recipes, shared building
+  research, and the sequence of evening-market service and settlement.
+- Circuit Stance: modular chip builds, character/board preparation, reading arena
+  feedback, iterative testing and the documented tiered ranking.
+- Both game pages: six section-navigation links and four annotated screenshots.
+  All original character stories remain intact. Current MunchMiner offline solo
+  and in-development status remains explicit.
+- Content evidence now uses project-relative source references without absolute
+  workstation paths or local working-copy details.
+- Fresh browser run: all twenty route/viewport checks and eleven axe scans passed,
+  with no overflow, broken images, runtime exceptions or violations. The complete
+  interaction suite passed, including every new section anchor and preserved lore.
+- Four additional game-page checks (desktop/mobile for both games): exact anchor
+  scroll offset below the sticky header, expanded screenshot captions, open-dialog
+  axe scans, dialog width and Escape/focus restoration all passed.
+- Full game-page screenshots and focused gameplay-section previews were visually
+  inspected. Focused section captures hide the navigation overlay only while
+  capturing the image, so all section text is visible; the site itself is unchanged.
+- Build, internal links/anchors, metadata, structured data, source syntax and Git
+  whitespace checks passed. No new external destinations were introduced.
+
+The previous remote commit's validation workflow succeeded. This local revision
+has no new remote CI result; publishing the review branch awaits an approved route.
+
 ## Final passing checks
 
 - `npm run build`: five static pages plus sitemap and robots.txt, no install required.

@@ -27,6 +27,12 @@
 - Descriptions of modular robot AI chips, arena strategy and iterative tactical
   builds are based on the official store description. No unsupported platform,
   multiplayer-mode, award or audience claims were added.
+- Expanded player guide: the store explicitly describes a turn-based strategy
+  roguelike, modular chip actions, iterative testing and tiered scoring with wins
+  raising rank and losses risking a restart. The programming/arena examples are
+  limited to those systems and visibly present character selection, stat panels,
+  hexagonal chip boards and health bars in the official screenshots. No specific
+  chip effect, preset build, unlock count or unverified combat mode is claimed.
 - `media/circuit-stance-1` through `-4` are faithful WebP conversions of the
   first four current official Steam screenshots. No scene elements were added.
 - The existing logo, four character artworks and complete character stories from
@@ -35,28 +41,45 @@
 
 ## MunchMiner
 
-- Existing local project: `C:\Users\mtsai\Desktop\workspace\MunchMiner`.
-- Existing remote: `git@github.com:Fluffy-Brown/MunchMiner.git`.
-- Local HEAD when reviewed: `b789e3857ead780bbc44f6ecba18e22b4b2b1f4a`;
-  uncommitted authoritative-document edits took precedence over historical HEAD text.
+- Project repository: https://github.com/Fluffy-Brown/MunchMiner
 - Authoritative reading entry: `Docs/README.md`, including its current
   2026-09-30 overrides and explicit warnings that older player guides are historical.
 - Exact authoritative specification:
-  `C:\Users\mtsai\Desktop\workspace\MunchMiner\Docs\MunchMiner-Gameplay-Implementation-Spec-v0.5.md`.
+  `Docs/MunchMiner-Gameplay-Implementation-Spec-v0.5.md` in the MunchMiner project.
   Its current top clauses were read on 1 October 2026, including 2026-09-30
   town research, retired personal-Dudu access, permanent station Dudu, logistics,
-  and survival corrections. This local working copy contained pre-existing user
-  edits; it was read only and neither reset nor committed by this website task.
+  and survival corrections. Later dated overrides take precedence over historical
+  passages in the same document.
 - Product background: `Docs/MunchMiner-Game-Design-Document.md` (last synchronized
   2026-09-16), read with the newer implementation specification taking precedence.
 - Supported high-level current direction: one red-helmet miner, fixed side-view 2D,
   offline solo play, excavation, rails and powered facilities, station Dudu freight,
   workshop toy recipes, and an evening toy market. Marksa's would-be villainy
   and village story are from the project design document.
+- Expanded excavation and logistics guide follows the 2026-09-30 current clauses:
+  no player stamina costs; moisture recovery through plasma contact; permanent,
+  always-automatic station Dudu; town research shared by building kind; higher
+  eligible material levels for stations/minefields. The 2026-09-29 electricity,
+  relay and terrain clauses establish circuit overload, powered rail routes,
+  player-built rift exits and the relationship between ground, rails and ropes.
+  The continuous-time override establishes persistent terrain/cargo and active
+  mine simulation in town, with settlement only at actual exit arrival and no
+  offline progression. Retired personal cart fleets, manual dispatch and older
+  stamina/water mechanics are not promoted.
+- Workshop sections 4.2–4.3 establish three successful first-sample assembly
+  steps, learned batch recipes, unchanged quality of existing stock after recipe
+  upgrades, finished-stock selection, staff roles and wages. The three displayed
+  mineral recipe examples use the documented Iron Toy Mine Cart, Wind-up Frog
+  and Crystal Kaleidoscope ingredient sets and single-toy yields.
+- Evening-market sections 5.1–5.4 establish exact toy requests, customer patience,
+  recruitment and escort, one-at-a-time on-site production after arrival, separate
+  handover/payment, toy-horn promotion and settlement. Tower copy follows the
+  player-facing summary: sales feed the tower and stronger signals attract more
+  humans. No numeric progression targets or guaranteed income are advertised.
 - No release date, target platform, downloadable build or MunchMiner store link
   was verified. The site says “In development” and promises only to publish
   availability information when confirmed.
-- The local `steam_appid.txt` is 3180830, matching Circuit Stance. It is a legacy
+- The project's `steam_appid.txt` is 3180830, matching Circuit Stance. It is a legacy
   reused value and must not be used as MunchMiner's store link.
 - Development screenshots, visibly inspected before use:
   - `Docs/Verification/Network/02-fresh-town.png` → `media/munchminer-town-*`
