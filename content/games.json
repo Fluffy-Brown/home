@@ -1,0 +1,60 @@
+{
+  "reviewed": "2026-10-01",
+  "games": [
+    {
+      "id": "munchminer",
+      "name": "MunchMiner",
+      "status": "In development",
+      "genre": "Solo mining & toy-market adventure",
+      "description": "Dig into a side-view world, build a rail network, and turn the materials you bring home into toys for the evening market.",
+      "image": "munchminer-town",
+      "alt": "MunchMiner's town, with a warmly lit workshop and its black-ball inhabitants",
+      "url": "/munchminer/",
+      "tags": ["Offline single-player", "Mining", "Crafting & markets"],
+      "steps": [
+        [
+          "Dig a little deeper",
+          "Explore a side-view mine, excavate materials and shape your own route underground."
+        ],
+        [
+          "Connect the pieces",
+          "Lay track and build powered facilities. Station Dudu carts carry materials through your rail network."
+        ],
+        [
+          "Make something wonderful",
+          "Bring materials home, learn toy recipes and prepare your workshop's stock."
+        ],
+        [
+          "Meet the evening market",
+          "Attract customers, sell the toys they want and prepare for your next expedition."
+        ]
+      ]
+    },
+    {
+      "id": "circuit-stance",
+      "name": "Circuit Stance",
+      "status": "Available on Steam",
+      "genre": "Tactical programming & strategy",
+      "description": "Take the role of a super AI. Combine modular chips to program your robots, test your tactics in the arena, and refine your next strategy.",
+      "image": "circuit-stance-1",
+      "alt": "Circuit Stance arena screenshot from the official Steam gallery",
+      "url": "/circuit-stance/",
+      "store": "https://store.steampowered.com/app/3180830/",
+      "tags": ["Modular AI chips", "Arena strategy", "2D art"],
+      "steps": [
+        [
+          "Program your squad",
+          "Combine modular chip actions to create different robot behaviours."
+        ],
+        [
+          "Put ideas to the test",
+          "Try your tactical builds in the arena and see how your decisions play out."
+        ],
+        [
+          "Refine and repeat",
+          "Experiment with new combinations and improve your strategy between matches."
+        ]
+      ]
+    }
+  ]
+}
