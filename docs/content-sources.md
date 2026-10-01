@@ -33,11 +33,32 @@
   limited to those systems and visibly present character selection, stat panels,
   hexagonal chip boards and health bars in the official screenshots. No specific
   chip effect, preset build, unlock count or unverified combat mode is claimed.
-- `media/circuit-stance-1` through `-4` are faithful WebP conversions of the
-  first four current official Steam screenshots. No scene elements were added.
-- The existing logo, four character artworks and complete character stories from
-  config.json are retained under “From our original character gallery”. This
-  does not assert that the historical gallery is the current shipped roster.
+- The current official store's static screenshot list was freshly downloaded and
+  inspected on 1 October 2026. Its first four URLs still match the previously used
+  images. Those images were not presented as newly updated artwork.
+- The redesigned public pages instead use faithful captures from the first-listed
+  official **Release Trailer**, Steam movie ID **257398019**. The current API
+  identifies video asset 1323588216 and the following official DASH source:
+  https://video.akamai.steamstatic.com/store_trailers/3180830/1323588216/5921cae35ce21b54c79946909bc00ff7be9f6de4/1786608596/dash_h264.mpd?t=1786609656
+- Selected captures: chip board and shop at **00:23**, arena at **00:38**, battle
+  stance choices at **00:33**, Hall of Fame at **00:58**. Captions identify their
+  source and time. Stance descriptions are limited to the visible cooldown/action
+  effects; no quantities, percentages or unverified modes are promoted.
+- Circuit Stance's existing project is Fluffy-Brown/HelloWar. Project settings
+  identify productName CircuitStance, company FluffyBrown and Steam app 3180830.
+  The inspected project revision was
+  **0beff776bd25c785e51a054475b21b4e8bbabf54**, dated 10 September 2026.
+- Current project cover: `HelloWar/Assets/Image/NEW/CoverBG.png` (last asset
+  commit `4f15d54ccb5f736af49d07a9553e4609686908e9`, 8 April 2026).
+  Current transparent title: `HelloWar/Assets/Resources/GameLogo/GameTitle.png`
+  (last asset commit `d2d2653f909389fb253b22880c733c68e514e4c4`, 20 May 2026).
+  The homepage treats the cover/title as artwork, separately from gameplay captures.
+- All selected images were visually inspected. WebP conversion and responsive
+  resizing preserve their aspect ratio and scene contents. Original transparency
+  is preserved on the title art. Source hashes are in assets-provenance.json.
+- The historical four-character gallery is no longer rendered publicly. Original
+  character assets and complete stories remain archived in config.json and
+  characters/. They are not asserted to represent the current shipped roster.
 
 ## MunchMiner
 
@@ -99,3 +120,11 @@
 - Original Discord invite `jR5CJsfc` returned Discord API code 10006
   (`Unknown Invite`) on 1 October 2026. It is omitted until a new official invite
   is verified. Do not invent a replacement.
+
+## Typography
+
+- Bungee display typeface and its OFL license were downloaded from the official
+  Google Fonts repository on 1 October 2026:
+  https://github.com/google/fonts/tree/main/ofl/bungee
+- Existing local Poppins body fonts are retained. Fonts are served locally with
+  font-display swap; there are no runtime font-service requests.

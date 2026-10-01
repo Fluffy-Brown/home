@@ -2,14 +2,14 @@
 <html lang="en" id="top">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MunchMiner — Solo Mining &amp; Toy-Market Adventure | Fluffy Brown</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MunchMiner — Dig, Build &amp; Run a Toy Market | Fluffy Brown</title>
 <meta name="description" content="Dig into a side-view world, build a rail network, and turn the materials you bring home into toys for the evening market.">
-<meta name="theme-color" content="#f6f1e7">
+<meta name="theme-color" content="#121520">
 <link rel="canonical" href="https://www.fluffybrown.com/munchminer/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Fluffy Brown">
-<meta property="og:title" content="MunchMiner — Solo Mining &amp; Toy-Market Adventure | Fluffy Brown">
+<meta property="og:title" content="MunchMiner — Dig, Build &amp; Run a Toy Market | Fluffy Brown">
 <meta property="og:description" content="Dig into a side-view world, build a rail network, and turn the materials you bring home into toys for the evening market.">
 <meta property="og:url" content="https://www.fluffybrown.com/munchminer/">
 <meta property="og:image" content="https://www.fluffybrown.com/media/munchminer-town-1280.webp">
@@ -21,19 +21,19 @@
 </script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","name":"MunchMiner","url":"https://www.fluffybrown.com/munchminer/","description":"Dig into a side-view world, build a rail network, and turn the materials you bring home into toys for the evening market.","image":"https://www.fluffybrown.com/media/munchminer-town-1280.webp","creator":{"@type":"Organization","name":"Fluffy Brown","url":"https://www.fluffybrown.com"},"playMode":"SinglePlayer"}</script>
 </head>
-<body>
+<body class="theme-munchminer">
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
 <div class="header-inner">
 <a class="brand" href="/" aria-label="Fluffy Brown home">
-<img src="/favicon.png" width="40" height="40" alt="">
-<span>FLUFFY BROWN<span class="brand-sub">INDEPENDENT GAMES</span>
+<img src="/favicon.png" alt="" width="44" height="44">
+<span>FLUFFY<br>BROWN<span class="brand-sub">INDEPENDENT GAME STUDIO</span>
 </span>
 </a>
 <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" hidden>Menu <span aria-hidden="true">☰</span>
 </button>
 <nav id="site-nav" aria-label="Main navigation">
-<a href="/#games">Our games</a>
+<a href="/#games" aria-current="page">Our games</a>
 <a href="/about-us/">The studio</a>
 <a class="nav-contact" href="#contact">Say hello <span aria-hidden="true">↗</span>
 </a>
@@ -41,35 +41,39 @@
 </div>
 </header>
 <main id="main" tabindex="-1">
-<section class="game-hero wrap">
-<a class="breadcrumb" href="/#games">← All our games</a>
+<section class="game-hero">
+<div class="wrap">
+<a class="breadcrumb" href="/#games">← All games</a>
 <div class="game-intro">
-<div>
-<span class="status status-warm">In development</span>
+<div class="game-hero-copy">
+<span class="status">In development</span>
 <p class="eyebrow">Solo mining &amp; toy-market adventure</p>
 <h1>MunchMiner</h1>
-<p class="game-headline">Dig. Connect. Craft. Conquer… the toy market.</p>
-<p>Dig into a side-view world, build a rail network, and turn the materials you bring home into toys for the evening market.</p>
+<p class="game-headline">DIG DEEP.<br>MAKE TOYS.<br>WORK THE CROWD.</p>
+<p class="game-description">Dig into a side-view world, build a rail network, and turn the materials you bring home into toys for the evening market.</p>
 <ul class="tags" aria-label="Game features">
 <li>Offline single-player</li>
 <li>Mining</li>
 <li>Crafting &amp; markets</li>
 </ul>
 <div class="actions">
-<a class="button" href="#the-game">Discover the game <span aria-hidden="true">↗</span>
+<a class="button" href="#the-game">Explore the game <span aria-hidden="true">↗</span>
 </a>
-<a class="button button-secondary" href="mailto:info@fluffybrown.com">Get in touch <span aria-hidden="true">↗</span>
+<a class="button button-secondary" href="#evening-market">Meet the market <span aria-hidden="true">↗</span>
 </a>
 </div>
 </div>
 <div class="game-cover">
-<img class="" src="/media/munchminer-town-1280.webp" srcset="/media/munchminer-town-640.webp 640w, /media/munchminer-town-1280.webp 1280w, /media/munchminer-town-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 60vw" width="1920" height="1080" alt="MunchMiner&#39;s town, with a warmly lit workshop and its black-ball inhabitants" fetchpriority="high" decoding="async">
-<p class="caption">Development screenshot. Visuals and gameplay may change.</p>
+<div class="game-poster mine-poster">
+<img class="" src="/media/munchminer-town-1280.webp" srcset="/media/munchminer-town-640.webp 640w, /media/munchminer-town-1280.webp 1280w, /media/munchminer-town-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 55vw" width="1920" height="1080" alt="MunchMiner&#39;s town, with a warmly lit workshop and its black-ball inhabitants" fetchpriority="high" decoding="async">
+</div>
+<p class="caption">Development build. Visuals and gameplay may change.</p>
+</div>
 </div>
 </div>
 </section>
 <nav class="game-navigation wrap" aria-label="On this game page">
-<p class="eyebrow">EXPLORE THE GAME</p>
+<span class="eyebrow">JUMP IN</span>
 <ul>
 <li>
 <a href="#the-game">The loop</a>
@@ -91,270 +95,330 @@
 </li>
 </ul>
 </nav>
-<section id="the-game" class="section wrap">
+<section class="game-loop section wrap" id="the-game">
 <div class="section-heading">
 <div>
-<p class="eyebrow">ONE MINER. PLENTY OF POSSIBILITIES.</p>
-<h2>From underground<br>to the market stall.</h2>
+<p class="eyebrow">THE PLAYING PART</p>
+<h2>ONE HAUL.<br>LOTS OF POSSIBILITIES.</h2>
 </div>
-<p>A solo adventure where the next<br>expedition starts with a good idea.</p>
+<p>The mine and the market are<br>two halves of the same plan.</p>
 </div>
-<ol class="steps">
+<ol class="loop-track">
 <li>
-<span class="step-num" aria-hidden="true">01</span>
+<span class="loop-number" aria-hidden="true">01</span>
 <h3>Dig a little deeper</h3>
 <p>Dig through soil and mineral deposits, open passages and shape the route you want to explore. The tunnels you make remain when you return.</p>
 </li>
 <li>
-<span class="step-num" aria-hidden="true">02</span>
+<span class="loop-number" aria-hidden="true">02</span>
 <h3>Connect the pieces</h3>
 <p>Build stations and gathering facilities, then connect them with powered tracks. Each station&#39;s permanent Dudu automatically carries eligible materials along a valid delivery route.</p>
 </li>
 <li>
-<span class="step-num" aria-hidden="true">03</span>
+<span class="loop-number" aria-hidden="true">03</span>
 <h3>Make something wonderful</h3>
 <p>Use delivered minerals and creature materials in the workshop. Assemble a first sample to learn a recipe, then produce batches and select finished toys for the stall.</p>
 </li>
 <li>
-<span class="step-num" aria-hidden="true">04</span>
+<span class="loop-number" aria-hidden="true">04</span>
 <h3>Meet the evening market</h3>
 <p>Read toy requests, guide shoppers to your stall and collect payment after their toys are ready. Unsold stock stays with you for a future market.</p>
 </li>
 </ol>
 </section>
-<section id="underground" class="guide-section">
-<div class="section wrap">
-<div class="guide-heading">
+<section class="game-chapter " id="underground">
+<div class="wrap chapter-grid">
+<div class="chapter-visual">
+<img class="" src="/media/munchminer-mine-1280.webp" srcset="/media/munchminer-mine-640.webp 640w, /media/munchminer-mine-1280.webp 1280w, /media/munchminer-mine-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 55vw" width="1920" height="1080" alt="Development mine: excavation, rails and stations." loading="lazy" decoding="async">
+<span class="chapter-badge" aria-hidden="true">01</span>
+<p class="caption">Development mine: excavation, rails and stations.</p>
+</div>
+<div class="chapter-copy">
 <p class="eyebrow">MAKE A WAY THROUGH</p>
-<h2>The mine takes the shape of your choices.</h2>
+<h2>SHAPE THE UNDERGROUND.</h2>
 <p>Excavation changes the world you move through. Your passages, tracks and facilities persist between visits, so the next trip starts with the work you have already done.</p>
-</div>
-<div class="guide-cards">
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">01</span>
-<h3>Dig, fill and explore</h3>
+<div class="system-list">
+<details class="system-row" open>
+<summary>
+<span>Dig, fill and explore</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Break through soil and mineral deposits, fill terrain when you need to reshape a passage, and use jumping and rope climbing to move through the side-view mine. Digging beneath a track can change it into a vertical rope, so the ground beneath your route matters.</p>
-</article>
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">02</span>
-<h3>Pack for the return</h3>
+</details>
+<details class="system-row">
+<summary>
+<span>Pack for the return</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Arrange and rotate shaped items in your grid backpack to make room for minerals, creature parts and supplies. Keep an eye on the miner&#39;s moisture: it drains over time and from creature damage, and contact with molten plasma restores it.</p>
-</article>
+</details>
 </div>
-<p class="guide-note">Digging, filling, track work and player construction do not spend player stamina in the current design. Materials and legal placement still matter.</p>
+<details class="system-note">
+<summary>A little more to know</summary>
+<p>Digging, filling, track work and player construction do not spend player stamina in the current design. Materials and legal placement still matter.</p>
+</details>
+</div>
 </div>
 </section>
-<section id="rail-and-power" class="guide-section guide-warm">
-<div class="section wrap">
-<div class="guide-heading">
+<section class="game-chapter chapter-reverse" id="rail-and-power">
+<div class="wrap chapter-grid">
+<div class="chapter-visual">
+<img class="" src="/media/munchminer-mine-1280.webp" srcset="/media/munchminer-mine-640.webp 640w, /media/munchminer-mine-1280.webp 1280w, /media/munchminer-mine-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 55vw" width="1920" height="1080" alt="Development mine: connected tracks around a station." loading="lazy" decoding="async">
+<span class="chapter-badge" aria-hidden="true">02</span>
+<p class="caption">Development mine: connected tracks around a station.</p>
+</div>
+<div class="chapter-copy">
 <p class="eyebrow">BUILD A WORKING CONNECTION</p>
-<h2>A rail line needs a destination—and power.</h2>
+<h2>BUILD A NETWORK THAT WORKS.</h2>
 <p>Connect freight routes to gathering facilities and an exit. Stations can pass cargo through powered relay stations, but materials reach town storage only when a cart actually arrives at a real exit.</p>
-</div>
-<div class="guide-cards">
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">01</span>
-<h3>Stations + Dudu</h3>
+<div class="system-list">
+<details class="system-row" open>
+<summary>
+<span>Stations + Dudu</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Each station has its own permanent Dudu cart. With cargo, power and a valid route, it loads and delivers automatically, then returns for more. It waits when empty and pauses while you arrange that station&#39;s inventory.</p>
-</article>
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">02</span>
-<h3>Minefields</h3>
+</details>
+<details class="system-row">
+<summary>
+<span>Minefields</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>These gathering facilities collect eligible ore in their service area. A station cart can collect their stock when the facilities are connected by a valid powered rail route.</p>
-</article>
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">03</span>
-<h3>Power stations</h3>
+</details>
+<details class="system-row">
+<summary>
+<span>Power stations</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Tap electric-source regions and carry power along electrified tracks. Connected facilities share the circuit&#39;s capacity. If their combined demand exceeds supply, all consumers on that circuit pause until enough capacity is available.</p>
-</article>
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">04</span>
-<h3>Built rift exits</h3>
+</details>
+<details class="system-row">
+<summary>
+<span>Built rift exits</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Construct powered rift exits to connect travel between powered exits. They are one of the mine&#39;s functional building choices, alongside stations, minefields and power stations.</p>
-</article>
+</details>
 </div>
-<p class="guide-note">The mine keeps producing and transporting while you are in town and while game time advances through rest or a market. This is an active game-world clock; there is no offline income or offline time progression.</p>
+<details class="system-note">
+<summary>What happens while you are in town?</summary>
+<p>The mine keeps producing and transporting while you are in town and while game time advances through rest or a market. This is an active game-world clock; there is no offline income or offline time progression.</p>
+</details>
+</div>
 </div>
 </section>
-<section id="workshop" class="guide-section">
-<div class="section wrap">
-<div class="guide-heading">
-<p class="eyebrow">FROM RAW MATERIAL TO SOMETHING PLAYFUL</p>
-<h2>Learn a toy. Make a batch. Plan the next haul.</h2>
-<p>The workshop turns the materials you bring home into finished stock. Your choice of recipes gives each expedition a purpose: gather what the next batch needs, rather than sell raw ore for money.</p>
+<section class="game-chapter " id="workshop">
+<div class="wrap chapter-grid">
+<div class="chapter-visual">
+<img class="" src="/media/munchminer-workshop-1280.webp" srcset="/media/munchminer-workshop-640.webp 640w, /media/munchminer-workshop-1280.webp 1280w, /media/munchminer-workshop-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 55vw" width="1920" height="1080" alt="Finished toy stock selected before opening the market." loading="lazy" decoding="async">
+<span class="chapter-badge" aria-hidden="true">03</span>
+<p class="caption">Finished toy stock selected before opening the market.</p>
 </div>
-<div class="guide-cards">
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">01</span>
-<h3>A first sample teaches the recipe</h3>
+<div class="chapter-copy">
+<p class="eyebrow">FROM RAW MATERIAL TO SOMETHING PLAYFUL</p>
+<h2>MAKE TOYS. STOCK THE STALL.</h2>
+<p>The workshop turns the materials you bring home into finished stock. Your choice of recipes gives each expedition a purpose: gather what the next batch needs, rather than sell raw ore for money.</p>
+<div class="system-list">
+<details class="system-row" open>
+<summary>
+<span>A first sample teaches the recipe</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Time the assembly action while the needle is in the gold zone. Three successful steps complete the sample and learn the recipe. A miss does not spend materials; the ingredient set is charged when the sample succeeds.</p>
 <p>Once learned, the recipe skips that sample minigame and supports batch quantities. Finished toys can then be selected for an evening market.</p>
-</article>
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">02</span>
-<h3>Two kinds of lasting progress</h3>
+</details>
+<details class="system-row">
+<summary>
+<span>Two kinds of lasting progress</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Recipe upgrades change the value of newly made stock; existing toys keep their original quality. Separately, permanent building research at Marksa&#39;s town workshop applies to every existing and future building of the same kind.</p>
 <p>Higher-level stations and minefields handle higher-level materials, linking workshop research back to your underground network.</p>
-</article>
+</details>
 </div>
 <div class="recipe-examples">
-<h3>A few toys on the workbench</h3>
+<h3>ON THE WORKBENCH</h3>
 <ul>
 <li>
 <strong>Iron Toy Mine Cart</strong>
-<span>2 Iron <span aria-hidden="true">→</span> 1 toy</span>
+<span>2 Iron → 1 toy</span>
 </li>
 <li>
 <strong>Wind-up Frog</strong>
-<span>1 Iron + 1 Copper <span aria-hidden="true">→</span> 1 toy</span>
+<span>1 Iron + 1 Copper → 1 toy</span>
 </li>
 <li>
 <strong>Crystal Kaleidoscope</strong>
-<span>1 Copper + 1 Crystal <span aria-hidden="true">→</span> 1 toy</span>
+<span>1 Copper + 1 Crystal → 1 toy</span>
 </li>
 </ul>
 <p>A few mineral-only recipes to try. Each ingredient set makes one toy; other recipes also use creature materials.</p>
 </div>
 </div>
+</div>
 </section>
-<section id="evening-market" class="guide-section guide-warm">
-<div class="section wrap">
-<div class="guide-heading">
+<section class="game-chapter chapter-reverse" id="evening-market">
+<div class="wrap chapter-grid">
+<div class="chapter-visual">
+<img class="" src="/media/munchminer-market-1280.webp" srcset="/media/munchminer-market-640.webp 640w, /media/munchminer-market-1280.webp 1280w, /media/munchminer-market-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 55vw" width="1920" height="1080" alt="The evening market before customers arrive." loading="lazy" decoding="async">
+<span class="chapter-badge" aria-hidden="true">04</span>
+<p class="caption">The evening market before customers arrive.</p>
+</div>
+<div class="chapter-copy">
 <p class="eyebrow">THE OTHER HALF OF THE ADVENTURE</p>
-<h2>Work the crowd, then work the counter.</h2>
+<h2>SELL A LITTLE MISCHIEF.</h2>
 <p>An evening market is an active shift. You move through the stalls, meet customers and keep service moving while their patience runs down.</p>
-</div>
-<div class="guide-cards guide-cards-three">
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">01</span>
-<h3>Choose what to bring</h3>
+<div class="system-list">
+<details class="system-row" open>
+<summary>
+<span>Choose what to bring</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Select finished toys before opening. Shoppers show a request for a specific toy, so a varied stock gives you different requests to serve. Unsold toys remain in your inventory after the shift.</p>
-</article>
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">02</span>
-<h3>Guide, make, collect</h3>
+</details>
+<details class="system-row">
+<summary>
+<span>Guide, make, collect</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Recruit a shopper and lead them to your stall. On-site making begins after their arrival, with one toy prepared at a time. Handover and payment are separate: return to the customer and collect their payment with F before patience expires.</p>
-</article>
-<article class="guide-card">
-<span class="step-num" aria-hidden="true">03</span>
-<h3>Find your rhythm</h3>
+</details>
+<details class="system-row">
+<summary>
+<span>Find your rhythm</span>
+<span class="plus-icon" aria-hidden="true">+</span>
+</summary>
 <p>Assign a Maker and Promoters to help with production and recruitment. Time a toy-horn promotion to reach more shoppers; a blast that is too loud can drive them away. At settlement, sales, tips and attending staff&#39;s wages determine the shift&#39;s profit.</p>
-</article>
+</details>
 </div>
-<p class="guide-note">Successful sales feed Marksa&#39;s Evil Broadcast Tower. A stronger signal attracts more humans, and themed markets give you a reason to prepare particular toys. More stock, better service and the next mining trip become parts of the same plan.</p>
+<details class="system-note">
+<summary>How does the market grow?</summary>
+<p>Successful sales feed Marksa&#39;s Evil Broadcast Tower. A stronger signal attracts more humans, and themed markets give you a reason to prepare particular toys. More stock, better service and the next mining trip become parts of the same plan.</p>
+</details>
+</div>
 </div>
 </section>
-<section class="story-band">
-<div class="wrap story-grid">
-<div class="story-title">
-<span class="small-star" aria-hidden="true">✦</span>
-<p class="eyebrow">MEET YOUR WOULD-BE EVIL EMPLOYER</p>
-<h2>Marksa has a plan.<br>It might even help.</h2>
+<section class="marksa-story">
+<div class="wrap marksa-grid">
+<div>
+<p class="eyebrow">A WOULD-BE EVIL EMPLOYER</p>
+<h2>MARKSA HAS<br>
+<em>A PLAN.</em>
+</h2>
 </div>
 <div>
-<p>Work for Marksa, a would-be world conqueror whose grand plans keep making life better for the village. As its red-helmet miner, you turn underground discoveries into something people want to take home.</p>
-<p>Excavation, rail logistics, workshop recipes and an evening market connect the two halves of your adventure.</p>
+<p class="large-copy">Conquer the world. Accidentally make the village a better place.</p>
+<p>Work for Marksa, whose grand schemes keep helping the people around him. As the village's red-helmet miner, you turn underground discoveries into something they want to take home.</p>
 </div>
 </div>
 </section>
-<section id="screenshots" class="section wrap">
+<section class="section wrap" id="screenshots">
 <div class="section-heading">
 <div>
-<p class="eyebrow">A WORK IN PROGRESS</p>
-<h2>Scenes from MunchMiner.</h2>
+<p class="eyebrow">TAKE A CLOSER LOOK</p>
+<h2>DOWN THE MINE.<br>OUT TO THE MARKET.</h2>
 </div>
-<p>Captured from development builds.<br>The game is still taking shape.</p>
+<p>Screens from development builds.<br>The world is still taking shape.</p>
 </div>
-<div class="gallery" aria-label="MunchMiner development screenshots">
+<div class="gallery" aria-label="MunchMiner gallery">
 <figure class="screenshot-card">
-<a class="gallery-link" href="/media/munchminer-town-1920.webp" data-gallery data-caption="Your town between expeditions. Look for the red helmet beside Marksa and the workshop behind them. Town connects the mine&#39;s delivered materials with crafting, research and preparations for the evening market." aria-label="View screenshot 1: Your town between expeditions">
-<img class="" src="/media/munchminer-town-1280.webp" srcset="/media/munchminer-town-640.webp 640w, /media/munchminer-town-1280.webp 1280w, /media/munchminer-town-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 50vw" width="1920" height="1080" alt="MunchMiner&#39;s town, with the red-helmet miner beside Marksa and a warmly lit workshop" loading="lazy" decoding="async">
-<span>Enlarge screenshot 01 <span aria-hidden="true">↗</span>
-</span>
+<a class="gallery-link" href="/media/munchminer-town-1920.webp" data-gallery data-caption="Your town between expeditions. Look for the red helmet beside Marksa and the workshop behind them. Town connects the mine&#39;s delivered materials with crafting, research and preparations for the evening market." aria-label="Enlarge Your town between expeditions">
+<img class="" src="/media/munchminer-town-1280.webp" srcset="/media/munchminer-town-640.webp 640w, /media/munchminer-town-1280.webp 1280w, /media/munchminer-town-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 55vw" width="1920" height="1080" alt="MunchMiner&#39;s town, with the red-helmet miner beside Marksa and a warmly lit workshop" loading="lazy" decoding="async">
+<span class="gallery-zoom" aria-hidden="true">↗</span>
 </a>
 <figcaption>
-<span class="step-num" aria-hidden="true">01</span>
+<span class="shot-index" aria-hidden="true">01</span>
+<div>
 <h3>Your town between expeditions</h3>
 <p>Look for the red helmet beside Marksa and the workshop behind them. Town connects the mine&#39;s delivered materials with crafting, research and preparations for the evening market.</p>
+</div>
 </figcaption>
 </figure>
 <figure class="screenshot-card">
-<a class="gallery-link" href="/media/munchminer-mine-1920.webp" data-gallery data-caption="Trace an underground route. The station anchors the visible track network. Trace the horizontal rails and vertical ropes through excavated passages to see how your route and your freight network share the underground space." aria-label="View screenshot 2: Trace an underground route">
-<img class="" src="/media/munchminer-mine-1280.webp" srcset="/media/munchminer-mine-640.webp 640w, /media/munchminer-mine-1280.webp 1280w, /media/munchminer-mine-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 50vw" width="1920" height="1080" alt="A station and connected horizontal tracks and vertical ropes in the MunchMiner mine" loading="lazy" decoding="async">
-<span>Enlarge screenshot 02 <span aria-hidden="true">↗</span>
-</span>
+<a class="gallery-link" href="/media/munchminer-mine-1920.webp" data-gallery data-caption="Trace an underground route. The station anchors the visible track network. Trace the horizontal rails and vertical ropes through excavated passages to see how your route and your freight network share the underground space." aria-label="Enlarge Trace an underground route">
+<img class="" src="/media/munchminer-mine-1280.webp" srcset="/media/munchminer-mine-640.webp 640w, /media/munchminer-mine-1280.webp 1280w, /media/munchminer-mine-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 55vw" width="1920" height="1080" alt="A station and connected horizontal tracks and vertical ropes in the MunchMiner mine" loading="lazy" decoding="async">
+<span class="gallery-zoom" aria-hidden="true">↗</span>
 </a>
 <figcaption>
-<span class="step-num" aria-hidden="true">02</span>
+<span class="shot-index" aria-hidden="true">02</span>
+<div>
 <h3>Trace an underground route</h3>
 <p>The station anchors the visible track network. Trace the horizontal rails and vertical ropes through excavated passages to see how your route and your freight network share the underground space.</p>
+</div>
 </figcaption>
 </figure>
 <figure class="screenshot-card">
-<a class="gallery-link" href="/media/munchminer-workshop-1920.webp" data-gallery data-caption="Choose the toys for your stall. The stock panel shows finished Iron Toy Mine Carts ready for selection. This is the step after workshop production: decide which finished toys to offer before opening the market." aria-label="View screenshot 3: Choose the toys for your stall">
-<img class="" src="/media/munchminer-workshop-1280.webp" srcset="/media/munchminer-workshop-640.webp 640w, /media/munchminer-workshop-1280.webp 1280w, /media/munchminer-workshop-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 50vw" width="1920" height="1080" alt="A toy-stock selection panel with Iron Toy Mine Carts in a MunchMiner development build" loading="lazy" decoding="async">
-<span>Enlarge screenshot 03 <span aria-hidden="true">↗</span>
-</span>
+<a class="gallery-link" href="/media/munchminer-workshop-1920.webp" data-gallery data-caption="Choose the toys for your stall. The stock panel shows finished Iron Toy Mine Carts ready for selection. This is the step after workshop production: decide which finished toys to offer before opening the market." aria-label="Enlarge Choose the toys for your stall">
+<img class="" src="/media/munchminer-workshop-1280.webp" srcset="/media/munchminer-workshop-640.webp 640w, /media/munchminer-workshop-1280.webp 1280w, /media/munchminer-workshop-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 55vw" width="1920" height="1080" alt="A toy-stock selection panel with Iron Toy Mine Carts in a MunchMiner development build" loading="lazy" decoding="async">
+<span class="gallery-zoom" aria-hidden="true">↗</span>
 </a>
 <figcaption>
-<span class="step-num" aria-hidden="true">03</span>
+<span class="shot-index" aria-hidden="true">03</span>
+<div>
 <h3>Choose the toys for your stall</h3>
 <p>The stock panel shows finished Iron Toy Mine Carts ready for selection. This is the step after workshop production: decide which finished toys to offer before opening the market.</p>
+</div>
 </figcaption>
 </figure>
 <figure class="screenshot-card">
-<a class="gallery-link" href="/media/munchminer-market-1920.webp" data-gallery data-caption="From preparation to a busy shift. The toy stall sits at the lower right of the two-row market. This scene was captured before customers arrive; during a shift you move between shoppers and your counter to recruit, hand over toys and collect payment." aria-label="View screenshot 4: From preparation to a busy shift">
-<img class="" src="/media/munchminer-market-1280.webp" srcset="/media/munchminer-market-640.webp 640w, /media/munchminer-market-1280.webp 1280w, /media/munchminer-market-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 50vw" width="1920" height="1080" alt="Two rows of evening market stalls, including the toy stall at the lower right, before customers arrive" loading="lazy" decoding="async">
-<span>Enlarge screenshot 04 <span aria-hidden="true">↗</span>
-</span>
+<a class="gallery-link" href="/media/munchminer-market-1920.webp" data-gallery data-caption="From preparation to a busy shift. The toy stall sits at the lower right of the two-row market. This scene was captured before customers arrive; during a shift you move between shoppers and your counter to recruit, hand over toys and collect payment." aria-label="Enlarge From preparation to a busy shift">
+<img class="" src="/media/munchminer-market-1280.webp" srcset="/media/munchminer-market-640.webp 640w, /media/munchminer-market-1280.webp 1280w, /media/munchminer-market-1920.webp 1920w" sizes="(max-width: 800px) 100vw, 55vw" width="1920" height="1080" alt="Two rows of evening market stalls, including the toy stall at the lower right, before customers arrive" loading="lazy" decoding="async">
+<span class="gallery-zoom" aria-hidden="true">↗</span>
 </a>
 <figcaption>
-<span class="step-num" aria-hidden="true">04</span>
+<span class="shot-index" aria-hidden="true">04</span>
+<div>
 <h3>From preparation to a busy shift</h3>
 <p>The toy stall sits at the lower right of the two-row market. This scene was captured before customers arrive; during a shift you move between shoppers and your counter to recruit, hand over toys and collect payment.</p>
+</div>
 </figcaption>
 </figure>
 </div>
 </section>
-<section class="section wrap faq-section">
+<section id="faq" class="section wrap faq-section">
 <div>
 <p class="eyebrow">BEFORE YOU HEAD UNDERGROUND</p>
-<h2>A few things to know.</h2>
-<p class="reviewed">Project information reviewed <time datetime="2026-10-01">1 October 2026</time>.</p>
+<h2>GOOD TO KNOW<span class="punctuation">.</span>
+</h2>
+<p class="reviewed">Information checked <time datetime="2026-10-01">1 October 2026</time>.</p>
 </div>
 <div class="faq">
 <details>
 <summary>What kind of game is MunchMiner?</summary>
-<p>A side-view 2D mining and toy-market adventure. Explore the mine, build a rail network, bring materials home, craft toys and sell them at the evening market.</p>
+<p>A side-view 2D mining and toy-market adventure. Excavate a persistent mine, connect powered facilities, bring materials home, craft toys and work the evening market.</p>
 </details>
 <details>
-<summary>Is it a single-player game?</summary>
-<p>Yes. The current game is built for offline solo play, with one red-helmet miner.</p>
+<summary>Can I play solo?</summary>
+<p>Yes. The current game is built for offline single-player play with one red-helmet miner.</p>
 </details>
 <details>
 <summary>Does the mine reset when I return?</summary>
-<p>No. Excavated terrain, tracks, facilities and cargo persist between visits. Production and transport continue as the in-game clock advances while you are in town, resting or running a market. There is no offline time progression or income.</p>
+<p>No. Your excavated terrain, tracks, facilities and cargo persist. Mine production and physical freight continue as the in-game clock advances in town, rest or a market. There is no offline time progression or income.</p>
 </details>
 <details>
 <summary>When can I play?</summary>
-<p>MunchMiner is in development. We will share a release date, platforms and availability here when they are confirmed.</p>
+<p>MunchMiner is in development. Release timing, platforms and availability will appear here when confirmed.</p>
 </details>
 <details>
 <summary>Where can I ask about the game?</summary>
-<p>Email <a href="mailto:info@fluffybrown.com">info@fluffybrown.com</a> for questions, press or publishing enquiries.</p>
+<p>Say hello at <a href="mailto:info@fluffybrown.com">info@fluffybrown.com</a> for questions, press or publishing enquiries.</p>
 </details>
 </div>
 </section>
 </main>
-<footer id="contact" class="site-footer">
+<footer class="site-footer" id="contact">
 <div class="wrap footer-top">
 <div>
-<p class="eyebrow">LET'S TALK</p>
-<h2>Good ideas start<br>with a hello.</h2>
-<p>Press, publishing, or a question about our games?</p>
+<p class="eyebrow">PRESS / PUBLISHING / GOOD CONVERSATIONS</p>
+<h2>LET'S MAKE<br>
+<em>SOMETHING<br>PLAYFUL.</em>
+</h2>
 <a class="email" href="mailto:info@fluffybrown.com">info@fluffybrown.com <span aria-hidden="true">↗</span>
 </a>
 </div>
+<div class="footer-right">
+<img class="footer-mascot" src="/icon-big.png" alt="Fluffy Brown studio emblem" width="240" height="240">
 <div class="footer-links">
 <a href="/munchminer/">MunchMiner</a>
 <a href="/circuit-stance/">Circuit Stance</a>
@@ -362,12 +426,13 @@
 </a>
 <a href="https://www.facebook.com/profile.php?id=61556983167805">Facebook <span aria-hidden="true">↗</span>
 </a>
-<a href="/about-us/">About Fluffy Brown</a>
+<a href="/about-us/">Meet the studio</a>
+</div>
 </div>
 </div>
 <div class="wrap footer-bottom">
-<span>© 2026 Fluffy Brown. All rights reserved.</span>
-<span>Melbourne + World</span>
+<span>© 2026 Fluffy Brown</span>
+<span>MELBOURNE + WORLD</span>
 <a href="#top">Back to top ↑</a>
 </div>
 </footer>

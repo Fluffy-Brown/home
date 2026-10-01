@@ -30,9 +30,12 @@ and refresh on GitHub Pages. `404.html` is a complete rendered page.
 - `scripts/build.mjs`: page templates, shared navigation/footer and metadata.
 - `assets/site.css`: responsive layout, typography and reduced-motion support.
 - `assets/site.js`: mobile menu and keyboard-accessible screenshot viewer.
-- `media/`: optimized, faithfully resized game screenshots in 640/1280/1920 variants.
+- `media/`: current project cover/title art and faithful release-trailer captures,
+  plus MunchMiner development screenshots in 640/1280/1920 variants.
+- `assets/Bungee-Regular.ttf` and `Bungee-OFL.txt`: local display font and license.
+- `docs/assets-provenance.json`: selected asset sources, timestamps and hashes.
 - `config.json`, `characters/`, and the original game images: retained original
-  Circuit Stance material. The generator preserves the original character stories.
+  Circuit Stance material, archived without a public legacy-character gallery.
 
 Run build after edits and commit the source and generated pages together.
 The check workflow verifies the generated files are up to date; it does not deploy.

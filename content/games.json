@@ -48,15 +48,15 @@
         "Test tactical choices in the arena",
         "Rework your build and pursue a higher rank"
       ],
-      "image": "circuit-stance-1",
-      "alt": "Circuit Stance arena screenshot from the official Steam gallery",
+      "image": "circuit-release-build",
+      "alt": "Circuit Stance chip-board preparation captured from the current official Steam release trailer",
       "url": "/circuit-stance/",
       "store": "https://store.steampowered.com/app/3180830/",
       "tags": ["Modular AI chips", "Arena strategy", "2D art"],
       "steps": [
         [
           "Program your squad",
-          "Choose your combatant and arrange modular chip actions to shape how your robot behaves. Think about the whole build, rather than one isolated action."
+          "Choose chip actions, arrange them on the hexagonal board and select a battle stance. Build around the behaviour you want to test."
         ],
         [
           "Put ideas to the test",

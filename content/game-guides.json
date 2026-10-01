@@ -12,7 +12,7 @@
       {
         "id": "underground",
         "eyebrow": "MAKE A WAY THROUGH",
-        "title": "The mine takes the shape of your choices.",
+        "title": "SHAPE THE UNDERGROUND.",
         "intro": "Excavation changes the world you move through. Your passages, tracks and facilities persist between visits, so the next trip starts with the work you have already done.",
         "cards": [
           {
@@ -33,7 +33,7 @@
       {
         "id": "rail-and-power",
         "eyebrow": "BUILD A WORKING CONNECTION",
-        "title": "A rail line needs a destination—and power.",
+        "title": "BUILD A NETWORK THAT WORKS.",
         "intro": "Connect freight routes to gathering facilities and an exit. Stations can pass cargo through powered relay stations, but materials reach town storage only when a cart actually arrives at a real exit.",
         "tone": "warm",
         "cards": [
@@ -67,7 +67,7 @@
       {
         "id": "workshop",
         "eyebrow": "FROM RAW MATERIAL TO SOMETHING PLAYFUL",
-        "title": "Learn a toy. Make a batch. Plan the next haul.",
+        "title": "MAKE TOYS. STOCK THE STALL.",
         "intro": "The workshop turns the materials you bring home into finished stock. Your choice of recipes gives each expedition a purpose: gather what the next batch needs, rather than sell raw ore for money.",
         "cards": [
           {
@@ -95,7 +95,7 @@
       {
         "id": "evening-market",
         "eyebrow": "THE OTHER HALF OF THE ADVENTURE",
-        "title": "Work the crowd, then work the counter.",
+        "title": "SELL A LITTLE MISCHIEF.",
         "intro": "An evening market is an active shift. You move through the stalls, meet customers and keep service moving while their patience runs down.",
         "tone": "warm",
         "cards": [
@@ -155,20 +155,20 @@
       ["arena", "Arena tactics"],
       ["iteration", "Build & rank"],
       ["screenshots", "Screenshots"],
-      ["characters", "Character stories"]
+      ["faq", "Good to know"]
     ],
     "sections": [
       {
         "id": "chip-programming",
         "eyebrow": "YOUR STRATEGY STARTS BEFORE THE MATCH",
-        "title": "Build the behaviour behind the battle.",
+        "title": "PROGRAM YOUR NEXT MOVE.",
         "intro": "You take the role of a super AI in a post-apocalyptic world, programming a robot squad to compete for resources. The modular chip system is the centre of the build: combine chip actions to create the behaviours you want to test.",
         "tone": "cool",
         "cards": [
           {
-            "title": "Choose a combatant and a setup",
+            "title": "Choose chips for the board",
             "paragraphs": [
-              "Choose a combatant, inspect its stats, and use the hexagonal chip board to prepare your setup. Think about who you are building around and which chip actions should form the plan before you head into the arena."
+              "The current release trailer shows a chip shop beside the hexagonal programming board. Choose modular actions, arrange a build around your combatant and take that setup into battle."
             ]
           },
           {
@@ -176,13 +176,19 @@
             "paragraphs": [
               "Modular actions allow different tactical builds. Treat the arrangement as one plan: decide what you want your robot to do, try a combination that expresses that idea, and use the match to judge whether it works."
             ]
+          },
+          {
+            "title": "Choose a battle stance",
+            "paragraphs": [
+              "Battle stances add another choice to the build. The release trailer shows stance effects that change cooldown behaviour or which actions can trigger. Pick one to support the plan, then check what happens in the arena."
+            ]
           }
         ]
       },
       {
         "id": "arena",
         "eyebrow": "WATCH YOUR DECISIONS MEET AN OPPONENT",
-        "title": "Take the build into the arena.",
+        "title": "LET YOUR BUILD DO THE TALKING.",
         "intro": "Quick, complex turn-based matches put your choices to the test. Preparation and testing connect directly: the chips you choose become a strategy to evaluate against the next arena challenge.",
         "cards": [
           {
@@ -202,7 +208,7 @@
       {
         "id": "iteration",
         "eyebrow": "EXPERIMENTATION WITH SOMETHING AT STAKE",
-        "title": "Refine the plan. Pursue the next rank.",
+        "title": "RETHINK. RERUN. RISE.",
         "intro": "Circuit Stance is a strategy roguelike with a tiered scoring system. Victories move your rank upward; losses bring challenges and the risk of starting over.",
         "tone": "cool",
         "cards": [
@@ -219,33 +225,33 @@
             ]
           }
         ],
-        "note": "The visual world uses vibrant flat 2D anime art, with distinct combatant designs and readable chip boards. Explore the original character stories below for more of the personalities behind that world."
+        "note": "The game’s flat 2D robot world has plenty of personality. The current release trailer shows a Hall of Fame scene alongside chip programming, battle stances and arena encounters."
       }
     ],
     "screenshots": [
       {
-        "image": "circuit-stance-1",
-        "alt": "Circuit Stance arena with two witch combatants, health bars and hexagonal chip boards",
-        "title": "See the build beside the battle",
-        "caption": "The combatants occupy the centre while health bars and chip boards frame the arena. These visible states give you a way to inspect how a programmed build performs during a match."
+        "image": "circuit-release-build",
+        "alt": "Circuit Stance release trailer: a large chip board beside a chip shop and the selected robot",
+        "title": "Buy chips. Build a plan.",
+        "caption": "At 00:23 in the current release trailer, the shop sits beside the hexagonal programming board. Compare the available chips with the arrangement you are building around your robot."
       },
       {
-        "image": "circuit-stance-2",
-        "alt": "Circuit Stance character selection showing Selene, character choices and a stat panel",
-        "title": "Inspect your combatant",
-        "caption": "Selene appears beside a character-selection panel and stats. Use this view to consider the combatant at the centre of your next tactical setup."
+        "image": "circuit-release-arena",
+        "alt": "Circuit Stance release trailer: two combatants with large chip boards, health bars and battle effects",
+        "title": "Watch the build in action",
+        "caption": "At 00:38, both chip boards remain visible beside the combatants. The health bars and battle effects show the result of the two setups meeting in the arena."
       },
       {
-        "image": "circuit-stance-3",
-        "alt": "Circuit Stance chip-editing view with a hexagonal board and chip-selection panels",
-        "title": "Arrange modular AI chips",
-        "caption": "The hexagonal board and adjacent chip-selection panels show the programming side of the game. Chip actions combine into a tactical build for the next arena test."
+        "image": "circuit-release-stance",
+        "alt": "Circuit Stance release trailer: Hacker, Jester and Dreamer battle-stance choices with their effects",
+        "title": "Give the build a stance",
+        "caption": "At 00:33, the stance-selection screen presents different effects to consider alongside the chips. This is another way to shape the behaviour you want to test."
       },
       {
-        "image": "circuit-stance-4",
-        "alt": "Circuit Stance arena with witch and vampire combatants and a visible chip board",
-        "title": "Try the next encounter",
-        "caption": "A different pair of combatants faces off with a chip board still visible. Take what you learned from an earlier battle into the next combination, then compare the result."
+        "image": "circuit-release-overview",
+        "alt": "Circuit Stance release trailer: robots displayed in the colourful Hall of Fame scene",
+        "title": "A world beyond the chip board",
+        "caption": "At 00:58, the release trailer visits the Hall of Fame. The robot designs and colourful setting show more of Circuit Stance’s personality."
       }
     ]
   }

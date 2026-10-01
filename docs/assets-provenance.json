@@ -1,0 +1,44 @@
+{
+  "reviewed": "2026-10-01",
+  "circuitProjectRevision": "0beff776bd25c785e51a054475b21b4e8bbabf54",
+  "officialSteam": "https://store.steampowered.com/app/3180830/",
+  "releaseTrailerMovieId": "257398019",
+  "assets": [
+    {
+      "name": "circuit-cover",
+      "source": "HelloWar/Assets/Image/NEW/CoverBG.png",
+      "sha256": "70cc73388d079ef141377a9ff0576c683b27a3cd2f3a42679747a756f8b447a3",
+      "transform": "Faithful aspect-preserving resize/WebP conversion; no scene alterations."
+    },
+    {
+      "name": "circuit-release-build",
+      "source": "Steam release trailer 257398019 @ 00:23",
+      "sha256": "02f854863a63d79a45590689f2b85da076b7a9aa35a225b1b07cf86469084771",
+      "transform": "Faithful aspect-preserving resize/WebP conversion; no scene alterations."
+    },
+    {
+      "name": "circuit-release-arena",
+      "source": "Steam release trailer 257398019 @ 00:38",
+      "sha256": "5eab9b209574038ce3680c0ae906c86d602a4d7b00501f709baf8bac5ef1cf1b",
+      "transform": "Faithful aspect-preserving resize/WebP conversion; no scene alterations."
+    },
+    {
+      "name": "circuit-release-stance",
+      "source": "Steam release trailer 257398019 @ 00:33",
+      "sha256": "6494afe0bc1a89611110fea2dae7f4e7f6d81140354d02b38472c69286257e70",
+      "transform": "Faithful aspect-preserving resize/WebP conversion; no scene alterations."
+    },
+    {
+      "name": "circuit-release-overview",
+      "source": "Steam release trailer 257398019 @ 00:58",
+      "sha256": "02c43d645489aebd103e73c851c655f9698b8ec61d9839dbb09c208ae4c049e7",
+      "transform": "Faithful aspect-preserving resize/WebP conversion; no scene alterations."
+    },
+    {
+      "name": "circuit-title",
+      "source": "HelloWar/Assets/Resources/GameLogo/GameTitle.png",
+      "sha256": "cb945d0debf395483adee223511f0b447ced8f43766a0cddf191bba90e37b3b0",
+      "transform": "Aspect-preserving resize and lossless WebP; original transparency preserved."
+    }
+  ]
+}

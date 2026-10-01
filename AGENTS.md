@@ -9,7 +9,10 @@
   development. Older multiplayer documents, stale guides and its legacy Steam
   app ID do not establish current features or a public store listing.
 - Do not invent release dates, platforms, links, awards or player counts.
-- Preserve unrelated changes and valid original Circuit Stance assets/stories.
+- Preserve unrelated changes and archived original Circuit Stance assets/stories.
+  Do not restore the retired legacy character gallery without verifying current
+  official assets and the user's requested presentation. Check screenshot currentness
+  against the current project and official release media before reusing old images.
 - Update source templates/content, run build and check, then review desktop/mobile,
   navigation, direct page loads, image dialog, no-JavaScript and reduced-motion states.
 - Commit source and generated files together to a review branch. Return the tested
